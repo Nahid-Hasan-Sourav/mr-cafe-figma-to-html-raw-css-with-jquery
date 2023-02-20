@@ -102,6 +102,15 @@
     margin: 240px 0px;
   }
 
+  .foodies-row{
+   
+    grid-template-columns: repeat(1,1fr);
+   
+  }
+  /* .foodies-col-margin{
+    margin: 100px 0px;
+  } */
+
 }
 
 /*    
@@ -139,6 +148,14 @@
     margin: 240px 0px;
 
 
+  }
+  .foodies-row{
+   
+    grid-template-columns: repeat(1,1fr);
+   
+  }
+  .foodies-col-margin{
+    margin: 100px 0px;
   }
 }
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -184,6 +201,31 @@
     .col-coffe-text h3{
       font-size: 22px;
     }
+    .foodies-col .foodies-col-up-img{
+     
+      width: 100px;
+      top:-40px ;
+      right:8px;
+      
+    }
+    .foodies-col{
+      height: 340px;
+    }
+    .foodies-col-text{
+      margin-top: 40px;
+      text-align: center;
+
+  }
+  .col-foodies-bottom{
+    flex-direction: column;
+  }
+  .col-foodies-bottom p{
+    text-align: center;
+  }
+  .col-foodies-bottom button{
+    width: 70%;
+    margin: 10px auto;
+  }
 
   }
 
@@ -211,6 +253,22 @@
       top:-250px;
       right: 10px;
       width: 197px;
+    }
+    .foodies-col .foodies-col-up-img{  
+      width: 140px;
+      top:-40px ;
+      right:8px;
+      
+    }
+    .col-foodies-bottom{
+      flex-direction: column;
+    }
+    .col-foodies-bottom p{
+      text-align: center;
+    }
+    .col-foodies-bottom button{
+      width: 70%;
+      margin: 10px auto;
     }
 
 
